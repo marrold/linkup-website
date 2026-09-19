@@ -1,12 +1,15 @@
 site_name: Link:UP
 site_description: Link:UP 2026
 copyright: Link:UP 2026
+repo_url: https://github.com/marrold/linkup-website
+repo_name: Improve this website
 theme:
   name: material
   custom_dir: overrides
   favicon: images/favicon.svg
   icon:
     logo: material/transit-connection-variant
+    repo: fontawesome/brands/github
   palette:
     scheme: slate
     primary: black

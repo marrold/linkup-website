@@ -224,3 +224,21 @@ body,
 .md-typeset ul:has(> li > .twemoji:first-child) > li > .twemoji:first-child {
   margin-right: 0.5em;
 }
+
+/* Repository link in the top right of the header */
+.md-header__source,
+.md-source,
+.md-source__repository {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  color: #31e652;
+}
+
+.md-source__icon svg {
+  fill: #31e652;
+}
+
+/* Hide the star and fork counts Material adds to the repository link */
+.md-source__facts {
+  display: none;
+}
