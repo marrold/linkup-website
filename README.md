@@ -7,7 +7,7 @@ Currently reachable on [https://marrold.github.io/linkup-website](https://marrol
 ## Requirements
 
 - Python 3.10 or newer
-- The packages listed in [requirements.txt](requirements.txt), which are MkDocs and the Material for MkDocs theme
+- MkDocs and the Material for MkDocs theme - see [requirements.txt](requirements.txt)
 
 ## Installing
 
