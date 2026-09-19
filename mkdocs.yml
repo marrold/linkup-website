@@ -1,0 +1,39 @@
+site_name: Link:UP
+site_description: Link:UP 2026
+copyright: Link:UP 2026
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: images/favicon.svg
+  icon:
+    logo: material/transit-connection-variant
+  palette:
+    scheme: slate
+    primary: black
+  features:
+    - toc.integrate
+    - navigation.top
+    - navigation.indexes
+
+plugins: []
+
+markdown_extensions:
+  - attr_list
+  - tables
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - About: index.md
+  - Info: info.md
+  - Network & Services: network.md
+  - Help Us: help-us.md
+  - Contact: contact.md
+
+extra:
+  generator: false
