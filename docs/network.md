@@ -21,6 +21,7 @@ And with ***your*** help, perhaps we'll see some of the following:
 {: style="margin-top: 2em;" }
 
 - :material-web: Internet Exchange / ISP
+- :material-speedometer: 10G+ peering via fibre
 - :material-sync: Token Ring / FDDI
 - :material-cable-data: 10BASE2 (Thinnet) / 10BASE5 (Thicknet)
 - :material-lan-connect: Acorn Econet / AUN 
