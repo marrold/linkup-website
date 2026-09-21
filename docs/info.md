@@ -27,7 +27,8 @@ icon: material/help-circle-outline
 ### :material-car: Car
 
 - The venue is approximately 30 minutes away from Junction 29 on the M25.  
-- There is an on-site pay and display car park (rates TBC)
+- There is an on-site pay and display car park, which should cost no more than £6.50 a day.  
+Vans may be prohibited overnight, we're double checking.
 - Loading is permitted for X minutes (TBC)
 
 ### :material-airplane: Plane
