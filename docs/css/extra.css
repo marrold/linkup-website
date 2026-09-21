@@ -242,3 +242,18 @@ body,
 .md-source__facts {
   display: none;
 }
+
+/* Row of organiser logos on the About page, each linked to its site */
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  margin: 3em 0 0;
+}
+
+.logo-row img {
+  height: 80px;
+  width: auto;
+}

@@ -20,4 +20,8 @@ Link:UP is currently being organised by members of the following communities:
 - [TheUplinkPort](https://www.youtube.com/@TheUplinkPort) - A YouTube channel dedicated to exploring retro network technologies like VDSL and EFM. 
 - [East Essex Hackspace](https://eehack.space/) - Our hosts!
 
-![CuTEL and The UpLink Port logos](images/TheUplinkPort%2BCutel.png){ style="display: block; width: 50%; margin: 3em auto 0;" }
+<div class="logo-row">
+  <a href="https://cutel.net/"><img src="images/CuTEL-Logo-Green.png" alt="CuTEL logo"></a>
+  <a href="https://www.youtube.com/@TheUplinkPort"><img src="images/UplinkPort-Logo-Green.png" alt="The UpLink Port logo"></a>
+  <a href="https://eehack.space/"><img src="images/EEH-Logo-Green.png" alt="East Essex Hackspace logo"></a>
+</div>
