@@ -11,8 +11,16 @@ theme:
     logo: material/transit-connection-variant
     repo: fontawesome/brands/github
   palette:
-    scheme: slate
-    primary: black
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/monitor
+        name: Turn off CRT effect
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/monitor-off
+        name: Turn on CRT effect
   features:
     - toc.integrate
     - navigation.top

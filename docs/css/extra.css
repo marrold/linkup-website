@@ -138,8 +138,26 @@ body,
   background-color: transparent;
 }
 
-/* Header logo icon in the site green */
-.md-header__button.md-logo svg {
+/* CRT toggle: reusing Material's own light/dark palette switcher (see
+   theme.palette in mkdocs.yml) as an on/off control, rather than as an
+   actual light theme. The "default" scheme drops the tile and vignette
+   and keeps the same solid dark background, so switching it off doesn't
+   change anything else about the site's look. Material sets the
+   data-md-color-scheme attribute on <body> itself, not on <html>, so the
+   body rule needs the attribute on the same element, not as an ancestor. */
+body[data-md-color-scheme="default"],
+[data-md-color-scheme="default"] .md-banner,
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-footer {
+  background-image: none;
+}
+
+/* All header icon buttons in the site green, rather than the off-white
+   Material picks by default for contrast against the black primary
+   colour. This covers the logo, the mobile nav drawer's menu icon, and
+   the CRT toggle (added below), in one place rather than one rule per
+   icon. */
+.md-header__button svg {
   fill: #31e652;
 }
 
@@ -188,14 +206,17 @@ body,
 }
 
 /* Material uses an accent colour, blue by default, for hovered and focused
-   links. Set it to the darker green used for the sub-headings. */
-[data-md-color-scheme="slate"] {
+   links. Set it to the darker green used for the sub-headings. Applied to
+   :root rather than a specific scheme so it holds in both CRT-on and
+   CRT-off states (see the toggle rules further down). */
+:root {
   --md-accent-fg-color: #22af39;
 }
 
 /* Footer text colours: Material uses off-white and greys for the copyright
-   line and previous/next links. Set them all to the site green. */
-[data-md-color-scheme="slate"] {
+   line and previous/next links. Set them all to the site green, in both
+   toggle states. */
+:root {
   --md-footer-fg-color: #31e652;
   --md-footer-fg-color--light: #31e652;
   --md-footer-fg-color--lighter: #31e652;
