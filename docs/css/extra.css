@@ -154,9 +154,14 @@ body[data-md-color-scheme="default"],
 
 /* All header icon buttons in the site green, rather than the off-white
    Material picks by default for contrast against the black primary
-   colour. This covers the logo, the mobile nav drawer's menu icon, and
-   the CRT toggle (added below), in one place rather than one rule per
-   icon. */
+   colour. This covers the mobile nav drawer's menu icon and the CRT
+   toggle, in one place rather than one rule per icon.
+   The logo needs its own copy of the same rule, at matching specificity:
+   Material's own stylesheet sets its fill with the two-class selector
+   ".md-header__button.md-logo svg", which otherwise outranks the plain
+   ".md-header__button svg" version below and wins regardless of load
+   order. */
+.md-header__button.md-logo svg,
 .md-header__button svg {
   fill: #31e652;
 }

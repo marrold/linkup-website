@@ -6,7 +6,9 @@ icon: material/help-circle-outline
 
 ## :material-calendar: When
 
-- We have provisionally set the date for the 9th - 11th of April, 2027.
+- We have provisionally set the date for the Friday 9th - Sunday 11th of April, 2027.
+- The Friday will just be an hour or two in the evening to unload and start setting up.
+- There will be some time in the evenings to socialise - probably at a local pub.
 
 ## :material-map-marker: Where
 

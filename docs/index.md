@@ -6,9 +6,11 @@ icon: material/party-popper
 
 # About
 
-Link:UP is a new, non-profit and volunteer ran event for 2027, aimed at anyone with an interest in networking and telecommunications.  
+Link:UP is a new, non-profit and volunteer ran event aimed at anyone with an interest in networking and telecommunications. 
 
-The aim is for attendees to _link up_ as many devices as possible, over as many different mediums as possible, whether it's a phone, a fax machine, a television set or a DSL modem from the turn of the millennium. 
+The event will provisionally be held at [The Freight House](https://maps.app.goo.gl/ZZhvovmc6GXhhVH47) in Rochford, Essex, on 9th-11th April 2027.
+
+The aim is for attendees to _link up_ as many devices as possible, over as many different mediums as possible, whether it's a phone, a fax machine, a television set or your favourite DSL modem from the turn of the millennium. 
 
 Tables will be available for hire if you want to demonstrate something, or connect to other attendees equipment - either as a "customer" or "service provider". Or if you're travelling light there will be an area where you can connect and use your portable device(s)
 
